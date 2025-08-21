@@ -44,3 +44,4 @@ This repository is a collection of daily Python practice scripts, organized by t
 
 ---
 For questions or unclear conventions, review the relevant topic folder or ask for clarification.
+
