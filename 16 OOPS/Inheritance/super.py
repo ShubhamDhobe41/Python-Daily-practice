@@ -1,0 +1,19 @@
+class Parent:
+    def __init__(self):
+        print("Parent class")
+    fname = "manish"
+    def Info(self):
+        print("Hello from parent ")
+class Child(Parent):
+    def __init__(self):
+        super().__init__()
+    
+    fname = "ajay"
+    def education(self):
+        print(" Education : BCA Graduate")
+class GrandSon(Child):
+    fname="raj"
+grandson = GrandSon()
+print(grandson.fname)
+grandson.Info()
+grandson.education()
